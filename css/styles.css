@@ -1,0 +1,127 @@
+/* цвет главный черный #212121*/
+/* цвет вторичный серый #757575 */
+/* цвет кнопки белый #FFFFFF */
+/* цвет ссылок в футере белый #FFFFFF60 % */
+/* цвет вторичный #2F303A; */
+/* цвет ховера #2196F3 */
+/* цвет фона блока наш персонал #F5F4FA */
+/* цвет лого веб футера */
+ 
+.list {
+    list-style: none;
+}
+:root{
+    --primary-text-color:#212121;
+    --titel-text-color:#212121;
+    --accent-color: #2196F3;
+    --secondary-text-color:#757575;
+    --button-text-color:#ffffff;
+    --button-bg-color:#2196F3;
+    --logo-web-color:#2196F3;
+    --section-color:#212121;
+    --primary-bg-color:#2F303A;
+}
+ 
+.page  {
+   color: var(--primary-text-color);
+}
+/* лого  в навигации */
+
+.logo-web{
+    color:var(--accent-color);
+}
+.logo-web {
+    color: var(--logo-web-color);
+}
+.logo-studio {
+    color: #000000;
+}
+
+/*  навигация*/
+.nav-list {
+    list-style: none;
+    color: var(--primary-text-color);
+}
+.nav-item {
+    list-style: none;
+    color: var(--primary-text-color);
+}
+.nav-item:hover,
+.nav-item:focus {
+    color: var(--accent-color);
+}
+/*  шапка авторизации */
+.page-auth{
+    list-style: none;
+}
+.page-link{
+    color: var(--secondary-text-color);
+}
+.page-link:hover,
+.page-link:focus{
+    color: var(--accent-color);
+}
+
+/* Герой */
+.hero{
+    background-color: var(--primary-bg-color);
+
+}
+.hero-title{
+    color: #ffffff;
+    
+}
+/* особенности */
+.pec-text{
+    color: var(--secondary-text-color);
+}
+
+
+/* чем мы занимаемся */
+
+/* наша команда */
+.team-item{
+    color: var(--secondary-text-color);
+}
+
+.footer{
+    background-color:var(--primary-bg-color);
+}
+/* лого в футере*/
+.logo-web {
+    color: var(--accent-color);
+}
+
+.footer-web {
+    color: var(--logo-web-color);
+}
+.footer-studio {
+    color: #ffffff;
+}
+/* адрес в подвале */
+.adr{
+    color: #ffffff;
+}
+.adr-link{
+    list-style: none;
+}
+
+.adr-item {
+    color: rgba(255, 255, 255, 0.6);
+}
+.section{
+    color: var(--section-color);
+}
+
+.button{
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color);
+}
+/* .button.primary{
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+}
+.button.secondary {
+    background-color: var(--button-text-color);
+    color: var(--button-bg-color) ;
+} */
