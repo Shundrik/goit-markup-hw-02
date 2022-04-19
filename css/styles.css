@@ -50,6 +50,9 @@
 .nav-item:focus {
     color: var(--accent-color);
 }
+.nav-item.current{
+    color: var(--accent-color);
+}
 /*  шапка авторизации */
 .page-auth{
     list-style: none;
@@ -125,3 +128,8 @@
     background-color: var(--button-text-color);
     color: var(--button-bg-color) ;
 } */
+
+
+
+/* портфолио */
+
