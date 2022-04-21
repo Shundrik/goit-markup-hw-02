@@ -13,7 +13,7 @@
 
 :root {
     --primary-text-color: #212121;
-    --titel-text-color: #212121;
+    --titel-text-C: #212121;
     --accent-color: #2196F3;
     --secondary-text-color: #757575;
     --button-text-color: #ffffff;
@@ -22,3 +22,7 @@
     --section-color: #212121;
     --primary-bg-color: #2F303A;
 }
+
+
+
+/* ------ COMMON.CSS  создан для треннировки------ */

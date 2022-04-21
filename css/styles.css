@@ -6,6 +6,8 @@
 /* цвет ховера #2196F3 */
 /* цвет фона блока наш персонал #F5F4FA */
 /* цвет лого веб футера */
+
+/* font-family: 'Raleway',sans-serif; */
  
 .list {
     list-style: none;
@@ -19,19 +21,28 @@
     --button-bg-color:#2196F3;
     --logo-web-color:#2196F3;
     --section-color:#212121;
-    --primary-bg-color:#2F303A;
+    --secondary-bg-color:#2F303A;
+    --primary-bg-color:#ffffff;
+}
+body{
+    background-color: var(--primary-bg-color);
+    font-family: 'Roboto',sans-serif;
+
 }
  
 .page  {
    color: var(--primary-text-color);
 }
 /* лого  в навигации */
-
-.logo-web{
-    color:var(--accent-color);
+.logo{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 .logo-web {
     color: var(--logo-web-color);
+    margin-right: -3px;
 }
 .logo-studio {
     color: #000000;
@@ -41,11 +52,20 @@
 .nav-list {
     list-style: none;
     color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.07;
 }
 .nav-item {
     list-style: none;
     color: var(--primary-text-color);
-}
+
+   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+ }
 .nav-item:hover,
 .nav-item:focus {
     color: var(--accent-color);
@@ -56,6 +76,10 @@
 /*  шапка авторизации */
 .page-auth{
     list-style: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .page-link{
     color: var(--secondary-text-color);
@@ -67,12 +91,26 @@
 
 /* Герой */
 .hero{
-    background-color: var(--primary-bg-color);
+    background-color: var(--secondary-bg-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
 
 }
 .hero-title{
     color: #ffffff;
-    
+}
+.button {
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
 }
 /* особенности */
 .pec-text{
@@ -87,19 +125,14 @@
     color: var(--secondary-text-color);
 }
 
-.footer{
-    background-color:var(--primary-bg-color);
-}
-/* лого в футере*/
-.logo-web {
-    color: var(--accent-color);
-}
 
-.footer-web {
-    color: var(--logo-web-color);
-}
+/* лого в футере*/
+
 .footer-studio {
     color: #ffffff;
+}
+.footer {
+    background-color: var(--secondary-bg-color);
 }
 /* адрес в подвале */
 .adr{
@@ -116,20 +149,28 @@
     color: var(--section-color);
 }
 
-.button{
-    color: var(--button-text-color);
-    background-color: var(--button-bg-color);
-}
-/* .button.primary{
+
+/* .button .primary {
     background-color: var(--button-bg-color);
     color: var(--button-text-color);
 }
 .button.secondary {
     background-color: var(--button-text-color);
-    color: var(--button-bg-color) ;
-} */
+    color: var(--button-bg-color) ; */
 
 
 
-/* портфолио */
 
+/* --портфолио --*/
+
+/* секция портфолио */
+.portolio-button:hover,
+.portolio-button:focus{
+    color:var(--button-text-color);
+    background-color:var(--button-bg-color);
+
+    font-family: inherit;
+}
+.portfolio-text{
+    color: var(--secondary-text-color);
+}

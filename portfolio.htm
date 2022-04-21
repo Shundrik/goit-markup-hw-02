@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/styles.css">
@@ -11,106 +15,105 @@
 <body>
     <!-- Шапка -->
     <header class="header">
-        
+    
         <nav class="nav">
-            <a href="./index.html"><span class ="logo-web">Web</span> <span class="logo-studio"> Studio</span></a>
+            <a class="logo" href="./index.html"><span class="logo-web" lang="en">Web</span> <span class="logo-studio"
+                    lang="en"> Studio</span></a>
             <ul class="nav-list">
-                <li> <a href="./index.html" class="nav-item">Студия</a></li>
-                <li> <a href="./portfolio.htm" class="nav-item">Портфолио</a></li>
-                <li> <a href="" class="nav-item">Контакты</a></li>
+                <li> <a href="" >Студия</a></li>
+                <li> <a class="nav-item current" href="./portfolio.htm" >Портфолио</a></li>
+                <li> <a class="nav-item" href="" >Контакты</a></li>
             </ul>
         </nav>
-
-            <ul class="page-auth">
-                <li> <a href="mailto:info@destudio.com" class="page-link">info@destudio.com</a></li>
-                <li> <a href="tel:+380961111111" class="page-link">+38 096 111 11 11</a></li>
-            </ul>
-        
-                
+        <ul class="page-auth">
+            <li> <a class="page-link" href="mailto:info@destudio.com" >info@destudio.com</a></li>
+            <li> <a class="page-link" href="tel:+380961111111" >+38 096 111 11 11</a></li>
+        </ul>
     </header>
-    <main>
-        <section>
-            <ul>
-                <li> 
-                    <a href="">Все</a>
+    <main>              
+        <!-- портфолио -->
+        <section class="portfolio">
+
+            <button class="portolio-button" type="button" >Веб-сайты</button>
+            <button class="portolio-button" type="button" >Приложения</button>
+            <button class="portolio-button" type="button" >Дизайн</button>
+            <button class="portolio-button" type="button" >Маркетинг</button>
+            <button class="portolio-button" type="button" >Все</button>
+                                  
+            <ul class="portolio-list">
+                <li class="porfolio-item">
+                    <a class="potfolio-link" href=""></a>
+                    <img src="./img/portfolio/tehnokryk.jpg" alt=" ноутбук" width="370" height="295">
+                    <h1 class="portolio-title">Технокряк</h1>
+                    <p class="portfolio-text">Веб-сайт</p> 
+                    <p class="portolio-hover">текст для ховера всей кнопки</p>
                 </li>
-                <li>
-                    <a href="">Веб-сайты</a>
+                <li class="porfolio-item">
+                    <a class="potfolio-link" href=""></a>
+                    <img src="./img/portfolio/neworlean.jpg" alt="басктбольная команда новый орлеан" width="370" height="295">
+                    <h1 class="portolio-title">Постер <span lang="en">Orlean vs Golden Star</span></h1>
+                    <p class="portfolio-text">Дизайн</p>
+                    <p class="portolio-hover">текст для ховера всей кнопки</p>
+                    
                 </li>
-                <li>
-                    <a href="">Приложения</a>
+                <li class="porfolio-item">
+                    <a class="potfolio-link" href=""></a>
+                    <img src="./img/portfolio/seafood.jpg" alt="лого ресторона сифуд" width="370" height="295">
+                    <h1 class="portolio-title">Ресторан <span lang="en">Seafood</span> </h1>
+                    <p class="portfolio-text">Приложение</p>
+                    <p class="portolio-hover">текст для ховера всей кнопки</p>
                 </li>
-                <li>
-                    <a href="">Дизайн</a>
+                <li class="porfolio-item">
+                    <a class="potfolio-link" href=""></a>
+                    <img src="./img/portfolio/prime.jpg" alt="наушники" width="370" height="295">
+                    <h1 class="portolio-title">Проект <span lang="en">Prime</span> </h1>
+                    <p class="portfolio-text">Маркетинг</p>
+                    <p class="portolio-hover">текст для ховера всей кнопки</p>
                 </li>
-                <li>
-                    <a href="">Маркетинг</a>
+                <li class="porfolio-item">
+                    <a class="potfolio-link" href=""></a>
+                    <img src="./img/portfolio/box.jpg" alt="две коробки" width="370" height="295">
+                    <h1 class="portolio-title">Проект <span lang="en">Boxes</span> </h1>
+                    <p class="portfolio-text">Приложение</p>
+                    <p class="portolio-hover">текст для ховера всей кнопки</p>
+                </li>
+                <li class="porfolio-item">
+                    <a class="potfolio-link" href=""></a>
+                    <img src="./img/portfolio/inspiration.jpg" alt="настолный монитор" width="370" height="295">
+                    <h1 class="portolio-title"> <span lang="en">Inspiration has no Borders</span></h1>
+                    <p class="portfolio-text">Веб-сайт</p>
+                    <p>текст для ховера всей кнопки</p>
+                </li>
+                <li class="porfolio-item">
+                    <a class="potfolio-link" href=""></a>
+                    <img src="./img/portfolio/limedition.jpg" alt="разворот журнала" width="370" height="295">
+                    <h1 class="portolio-title">Издание <span lang="en">Limited Edition</span> </h1>
+                    <p class="portfolio-text">Дизайн</p>
+                    <p class="portolio-hover">текст для ховера всей кнопки</p>
+                    
+                </li>
+                <li class="porfolio-item">
+                    <a class="potfolio-link" href=""></a>
+                    <img src="./img/portfolio/lab.jpg" alt="бирка с лого лаб" width="370" height="295">
+                    <h1 class="portolio-title">Проект <span lang="en">LAB</span> </h1>
+                    <p class="portfolio-text">Маркетинг</p>
+                    <p class="portolio-hover">текст для ховера всей кнопки</p>
+                <li class="porfolio-item">    
+                </li>
+                <li class="porfolio-item">
+                    <a class="potfolio-link" href=""></a>
+                    <img src="./img/portfolio/growingbiz.jpg" alt="набор текста на ноутбуке" width="370" height="295">
+                    <h1 class="portolio-title"> <span lang="en">Growing Business</span></h1>
+                    <p class="portfolio-text">Приложение</p>
+                    <p class="portolio-hover">текст для ховера всей кнопки</p>
                 </li>
             </ul>
-
         </section>
-        <section>
-            <ul>
-                <LI>
-                    <img src="./img/portfolio/tehnokryk.jpg" alt=" ноутбук">
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
-                </LI>
-                <LI>
-                    <img src="./img/portfolio/neworlean.jpg" alt="басктбольная команда новый орлеан">
-                    <h3>Постер New Orlean vs Golden Star</h3>
-                    <p>Дизайн</p>
-                </LI>
-                <LI>
-                    <img src="./img/portfolio/seafood.jpg" alt="лого ресторона сифуд">
-                    <h3>Ресторан Seafood</h3>
-                    <p>Приложение</p>
-                </LI>
-                <LI>
-                    <img src="./img/portfolio/prime.jpg" alt="наушники">
-                    <h3>Проект Prime</h3>
-                    <p>Маркетинг</p>
-                </LI>
-                <LI>
-                    <img src="./img/portfolio/box.jpg" alt="две коробки">
-                    <h3>Проект Boxes</h3>
-                    <p>Приложение</p>
-                </LI>
-                <LI>
-                    <img src="./img/portfolio/inspiration.jpg" alt="настолный монитор">
-                    <h3>Inspiration has no Borders</h3>
-                    <p>Веб-сайт</p>
-                </LI>
-                <LI>
-                    <img src="./img/portfolio/limedition.jpg" alt="разворот журнала">
-                    <h3>Издание Limited Edition</h3>
-                    <p>Дизайн</p>
-                </LI>
-                <LI>
-                    <img src="./img/portfolio/lab.jpg" alt="бирка с лого лаб">
-                    <h3>Проект LAB</h3>
-                    <p>Маркетинг</p>
-                </LI>
-                <LI>
-                    <img src="./img/portfolio/growingbiz.jpg" alt="набор текста на ноутбуке">
-                    <h3>Growing Business</h3>
-                    <p>Приложение</p>
-                </LI>
-
-            </ul>
-        
-        </section>
-
-
     </main>
-
-
-
-
-
     <!-- подвал -->
     <footer class="footer">
-        <a href="./index.html"><span class="footer-web">Web</span> <span class="footer-studio">Studio</span></a>
+        <a class="logo" href="./index.html"><span class="logo-web" lang="en">Web</span> <span class="footer-studio"
+                lang="en">Studio</span></a>
         <address class="adr">
             г. Киев, пр-т Леси Украинки, 26 <br>
             <ul class="adr-link">
@@ -119,12 +122,5 @@
             </ul>
         </address>
     </footer>
-
-
-
-
-
-
-    
 </body>
 </html>
