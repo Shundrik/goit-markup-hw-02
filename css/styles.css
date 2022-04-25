@@ -93,8 +93,12 @@ li {
 }
 
 /* Герой */
+.hero{
+    background-color: var(--secondary-bg-color);
+
+}
 .hero-title {
-  background-color: var(--secondary-bg-color);
+  
   color: #ffffff;
 
   font-weight: 900;
