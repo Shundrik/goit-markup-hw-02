@@ -142,8 +142,9 @@ button:hover {
 .pec-text {
   color: var(--secondary-text-color);
 
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
 }
 
 /* чем мы занимаемся */
@@ -151,19 +152,25 @@ button:hover {
 /* наша команда */
 .team {
   background-color: #f5f4fa;
-
+}
+.team-item{
+  background-color: #ffffff;
+}
+.team-title{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  
 }
 
-.team-item {
+.team-text {
   color: var(--secondary-text-color);
 
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.19;
 }
+
 
 /* --футер-- */
 
